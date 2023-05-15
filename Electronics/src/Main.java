@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         
 
-        Kitchen kitchen = new Kitchen("Italy Gas", 800,
-                "Samsung Fridge", 1200,
-                "LG washer", 600);
+        Kitchen kitchen = new Kitchen(" Gas", 800,
+                " Fridge", 1200,
+                " washer", 600);
 
         kitchen.addColer("water coler", 120);
         kitchen.addGrill("normal grill" , 40);
