@@ -29,7 +29,7 @@ public class Kitchen extends Item{
         return gas.getPrice() + fridge.getPrice() + washer.getPrice() +
                 (microwave != null ? microwave.getTotal() : 0) +
                 (grill != null ? grill.getPrice(): 0) +
-                (coler != null ? washer.getPrice() : 0);
+                (coler != null ? coler.getPrice() : 0);
     }
 
     @Override
