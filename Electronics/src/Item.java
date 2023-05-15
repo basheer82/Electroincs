@@ -20,13 +20,8 @@ public class Item {
         return price;
     }
 
-    public double getTotal(){
-        return 0;
-    }
-
     public void printItem(){
-//        System.out.println("-".repeat(30));
-        System.out.printf("%20s : %6.2f%n", name.toUpperCase(), getPrice());
+        System.out.printf("%20s : %6.2f%n", getName().toUpperCase(), getPrice());
     }
 
     public static void printItem(String str, double price){
